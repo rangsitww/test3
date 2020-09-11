@@ -1,0 +1,259 @@
+{
+ "autoname": "Prompt",
+ "creation": "2020-02-14 21:52:22.396635",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_1",
+  "section_break_2",
+  "doc_no",
+  "column_break_4",
+  "doc_date",
+  "column_break_6",
+  "customer_code",
+  "section_break_5",
+  "customer_name",
+  "address_1",
+  "address_2",
+  "address_3",
+  "column_break_10",
+  "transp_customer_name",
+  "transp_address1",
+  "transp_address2",
+  "transp_address3",
+  "orderbreak_section",
+  "order_no",
+  "column_break_20",
+  "payment_condition",
+  "column_break_22",
+  "due_date",
+  "column_break_24",
+  "transport_name",
+  "column_break_27",
+  "sales_code",
+  "section_break_18",
+  "items",
+  "section_break_20",
+  "doc_total"
+ ],
+ "fields": [
+  {
+   "fieldname": "doc_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "doc_no",
+   "unique": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "doc_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "doc_date"
+  },
+  {
+   "fieldname": "customer_code",
+   "fieldtype": "Data",
+   "label": "customer_code"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "customer_name"
+  },
+  {
+   "fieldname": "address_1",
+   "fieldtype": "Data",
+   "label": "address_1"
+  },
+  {
+   "fieldname": "address_2",
+   "fieldtype": "Data",
+   "label": "address_2"
+  },
+  {
+   "fieldname": "address_3",
+   "fieldtype": "Data",
+   "label": "address_3"
+  },
+  {
+   "fieldname": "transp_customer_name",
+   "fieldtype": "Data",
+   "label": "transp_customer_name"
+  },
+  {
+   "fieldname": "transp_address1",
+   "fieldtype": "Data",
+   "label": "transp_address1"
+  },
+  {
+   "fieldname": "transp_address2",
+   "fieldtype": "Data",
+   "label": "transp_address2"
+  },
+  {
+   "fieldname": "transp_address3",
+   "fieldtype": "Data",
+   "label": "transp_address3"
+  },
+  {
+   "fieldname": "doc_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "doc_total",
+   "options": "currency"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "orderbreak_section",
+   "fieldtype": "Section Break",
+   "label": "orderbreak"
+  },
+  {
+   "columns": 1,
+   "fieldname": "order_no",
+   "fieldtype": "Data",
+   "label": "order_no"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "payment_condition",
+   "fieldtype": "Data",
+   "label": "payment_condition"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "due_date"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 3,
+   "fieldname": "transport_name",
+   "fieldtype": "Data",
+   "label": "transport_name"
+  },
+  {
+   "columns": 1,
+   "fieldname": "sales_code",
+   "fieldtype": "Data",
+   "label": "sales_code"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "items",
+   "options": "nonDO Detail"
+  }
+ ],
+ "modified": "2020-02-22 00:45:55.977489",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "nonDO",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "customer_name",
+ "track_changes": 1
+}

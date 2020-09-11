@@ -1,0 +1,89 @@
+{
+ "autoname": "format:MEET-{######}",
+ "creation": "2020-02-06 23:04:13.279684",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "meeting_room",
+  "meeting_owner",
+  "meeting_date",
+  "meeting_detail"
+ ],
+ "fields": [
+  {
+   "fieldname": "meeting_room",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Meeting Room",
+   "options": "1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "meeting_owner",
+   "fieldtype": "Data",
+   "label": "Meeting Owner"
+  },
+  {
+   "fieldname": "meeting_date",
+   "fieldtype": "Date",
+   "label": "Meeting Date"
+  },
+  {
+   "fieldname": "meeting_detail",
+   "fieldtype": "Table",
+   "label": "Meeting Detail",
+   "options": "Meeting Detail",
+   "reqd": 1
+  }
+ ],
+ "icon": "fa fa-file-text",
+ "modified": "2020-02-08 21:20:38.661453",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "Meeting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "meeting_room",
+ "track_changes": 1
+}

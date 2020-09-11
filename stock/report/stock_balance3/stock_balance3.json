@@ -1,0 +1,30 @@
+{
+ "add_total_row": 1,
+ "creation": "2020-04-10 10:23:51.961671",
+ "disable_prepared_report": 1,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2020-04-10 10:23:51.961671",
+ "modified_by": "Administrator",
+ "module": "Stock",
+ "name": "Stock Balance3",
+ "owner": "Administrator",
+ "prepared_report": 1,
+ "ref_doctype": "Stock Ledger Entry",
+ "report_name": "Stock Balance3",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Purchase User"
+  },
+  {
+   "role": "Stock User"
+  }
+ ]
+}

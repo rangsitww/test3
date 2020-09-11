@@ -1,0 +1,94 @@
+{
+ "autoname": "hash",
+ "creation": "2020-02-15 16:06:09.979772",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "prod_code",
+  "column_break_2",
+  "prod_wh",
+  "column_break_4",
+  "prod_name",
+  "prod_size",
+  "qty",
+  "unit",
+  "prod_price",
+  "total"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "prod_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "prod_code"
+  },
+  {
+   "fieldname": "prod_wh",
+   "fieldtype": "Data",
+   "label": "prod_wh"
+  },
+  {
+   "columns": 2,
+   "fieldname": "prod_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "prod_name"
+  },
+  {
+   "columns": 1,
+   "fieldname": "prod_size",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "prod_size"
+  },
+  {
+   "columns": 1,
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "qty"
+  },
+  {
+   "columns": 1,
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "unit"
+  },
+  {
+   "columns": 1,
+   "fieldname": "prod_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "prod_price"
+  },
+  {
+   "columns": 1,
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "total"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-02-21 23:53:34.404829",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "nonDO Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,51 @@
+{
+ "autoname": "hash",
+ "creation": "2020-02-06 23:16:29.179848",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "guest",
+  "age",
+  "sex",
+  "meeting"
+ ],
+ "fields": [
+  {
+   "fieldname": "guest",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "guest"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "age"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "sex",
+   "options": "M\nW"
+  },
+  {
+   "fieldname": "meeting",
+   "fieldtype": "Data",
+   "label": "Meeting"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-02-06 23:18:43.905014",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "Meeting Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
